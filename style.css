@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #efefef;
+    background:linear-gradient(to left,#fff,#ccc);
 }
 
 h1,h2{
