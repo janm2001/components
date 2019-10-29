@@ -24,6 +24,7 @@ h1{
 img{
     width:400px;
     height: 300px;
+    text-align:center;
 }
 
 #procesor,#gpu,#ram,#maticna,#disk,#napajanje,#kuciste,#zvucni{
@@ -32,6 +33,7 @@ img{
 }
 
 .img{
+    
     display:flex;
     align-self:center;
     justify-content:center;
@@ -54,3 +56,47 @@ img{
     }
 
   }
+
+  #header{
+      text-align:center;
+      display:flex;
+      align-self: center;
+      align-content: center;
+      justify-content:center;
+  }
+
+  #footer{
+      background:linear-gradient(to left,#000,#333);
+      padding:0;
+      margin:0;
+      text-align:center;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      color:#fff;
+  }
+
+  #yt{
+      width:100px;
+      height:auto;
+      
+  }
+
+  #fb{
+    width:75px;
+    height:auto;
+    border:1px solid #fff;
+    border-radius:50%;
+     
+}
+
+#author{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+#jm{
+    background: url("img/jm.jpg");
+    background-size:cover;
+    height: 620px;
+}
